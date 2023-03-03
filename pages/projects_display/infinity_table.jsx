@@ -1,4 +1,4 @@
-import styles from '../../styles/Infinity_table.module.css'
+import styles from '../../styles/projects/Infinity_table.module.css'
 import Image from 'next/image'
 import TableOn from '../../public/img/Infinity_table/table_on.png'
 import TableOff from '../../public/img/Infinity_table/table_off.png'

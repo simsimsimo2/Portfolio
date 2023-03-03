@@ -31,9 +31,6 @@ export default function Contacts() {
         <nav className={`${styles.nav}`}>
             <ul>
                 <li className={`${styles.li}`}>
-                    Email: cloutier.simongabriel@gmail.com
-                </li>
-                <li className={`${styles.li}`}>
                     <a href="https://linkedin.com/in/simon-gabriel-cloutier-a51903260" target="_blank" rel="noopener noreferrer">Linkedin</a>
                 </li>
                 <li className={`${styles.li}`}>

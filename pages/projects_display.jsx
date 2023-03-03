@@ -2,6 +2,7 @@ import styles from '../styles/Project.module.css'
 import Image from 'next/image'
 import TableOn from '../public/img/Infinity_table/table_on.png'
 import Gouv from '../public/img/Gouv-e-courses/Gouv1.png'
+import Freenove from '../public/img/Freenove/freenove.jpg'
 import Link from 'next/link'
 import Head from 'next/head'
 
@@ -49,6 +50,20 @@ export default function Projects() {
                                 <span className={`${styles.buttonedge}`}></span>
                                 <span className={`${styles.buttonfront}`}>
                                     Gouv-e-courses
+                                </span>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+                <div className={`${styles.container}`}>
+                    <div>
+                        <Image src={Freenove} alt='Small 4WD robot' className={`${styles.img1}`}/>
+                        <div className={`${styles.middle}`}>
+                            <Link className={`${styles.buttonpushable}`} href="/projects_display/freenove">
+                                <span className={`${styles.buttonshadow}`}></span>
+                                <span className={`${styles.buttonedge}`}></span>
+                                <span className={`${styles.buttonfront}`}>
+                                    Freenove 4WD smart car
                                 </span>
                             </Link>
                         </div>

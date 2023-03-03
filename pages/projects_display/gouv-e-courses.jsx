@@ -1,4 +1,4 @@
-import styles from '../../styles/Gouv-e-courses.module.css'
+import styles from '../../styles/projects/Gouv-e-courses.module.css'
 import Image from 'next/image'
 import gouv1 from '../../public/img/Gouv-e-courses/Gouv1.png'
 import gouv2 from '../../public/img/Gouv-e-courses/Gouv2.png'
@@ -50,7 +50,7 @@ export default function Gouv(){
             <a 
                 className={`${styles.description}`} 
                 href="https://gouv-e-courses.onrender.com/connexionUtilisateur">
-                web site
+                Web site 
             </a>
             <div className={`${styles.container}`}>
                 <Carousel>
