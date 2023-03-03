@@ -42,10 +42,10 @@ export default function Freenove4WD(){
             It was loose and I had to build it by hand. 
             This robot is controlled by a Raspberry pi 4 
             which allows it to be controlled remotely by 
-            internet (app on phone and pc). The robot contains 
+            internet &#40;app on phone and pc&#41;. The robot contains 
             several modules that I am still discovering. Like for 
             example: a light sensor, camera that can move with the 
-            robot's head, LEDs all around him, motors for the wheels, 
+            robot&#39;s head, LEDs all around him, motors for the wheels, 
             small AI function to detect faces, etc.
             </p>
             <a 
