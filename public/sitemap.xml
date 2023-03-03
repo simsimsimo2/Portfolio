@@ -18,5 +18,8 @@
         <url>
             <loc>http://localhost:3000/projects_display/infinity_table</loc>
         </url>
+        <url>
+            <loc>http://localhost:3000/projects_display/freenove</loc>
+        </url>
     </urlset>
 </xml>
