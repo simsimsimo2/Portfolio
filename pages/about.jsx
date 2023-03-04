@@ -29,7 +29,12 @@ export default function About() {
             About me
         </p>
         <p className={`${styles.description}`}>
-            
+            A computer programmer who makes sure to 
+            find all the errors in the programs and does it with 
+            pleasure. I have an attraction to everything that comes 
+            down to the entertainment and amusement of the users 
+            of my projects. One of the things I love most is robots 
+            or any project that requires me to build some sort of gadget.
         </p>
         <p className={`${styles.cv}`}>
             Click on one of the links below to download my resume:
