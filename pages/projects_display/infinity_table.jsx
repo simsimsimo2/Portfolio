@@ -50,7 +50,7 @@ export default function Table(){
                 All of it is hand made by myself and with the help of my father.
             </p>
             <div className={`${styles.container}`}>
-                <Carousel>
+                <Carousel autoPlay axis="horizontal" interval="5000" infiniteLoop>
                     <Image src={TableOff} alt='Table with mirror illusion off' className={`${styles.img}`}/>
                     <Image src={TableOn} alt='Table with mirror illusion on' className={`${styles.img}`}/>
                     <Image src={Table1} alt='Table construction pictures' className={`${styles.img}`}/>

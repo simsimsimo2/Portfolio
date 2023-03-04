@@ -53,7 +53,7 @@ export default function Gouv(){
                 Web site 
             </a>
             <div className={`${styles.container}`}>
-                <Carousel>
+                <Carousel autoPlay axis="horizontal" interval="5000" infiniteLoop>
                     <Image src={gouv1} alt='Screen shot of the web site' className={`${styles.img}`}/>
                     <Image src={gouv2} alt='Screen shot of the web site' className={`${styles.img}`}/>
                     <Image src={gouv3} alt='Screen shot of the web site' className={`${styles.img}`}/>

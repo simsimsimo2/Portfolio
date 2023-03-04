@@ -3,7 +3,8 @@ import Link from 'next/link'
 import Head from 'next/head'
 
 export default function Contacts() {
-    return <>
+    return (
+    <>
     <Head>
         <title>Portfolio - Contacts</title>
         <meta name='description' content='Page of my contacts of my portfolio'/>
@@ -29,15 +30,39 @@ export default function Contacts() {
             Here is the information to join me or to know more about me:
         </p>
         <nav className={`${styles.nav}`}>
-            <ul>
+            <ul className={`${styles.ul}`}>
                 <li className={`${styles.li}`}>
-                    <a href="https://linkedin.com/in/simon-gabriel-cloutier-a51903260" target="_blank" rel="noopener noreferrer">Linkedin</a>
+                    <a 
+                    href="https://linkedin.com/in/simon-gabriel-cloutier-a51903260" 
+                    target="_blank" rel="noopener noreferrer" 
+                    className={`${styles.a}`}>
+                        Linkedin
+                    </a>
                 </li>
                 <li className={`${styles.li}`}>
-                    <a href="https://github.com/simsimsimo2/" target="_blank" rel="noopener noreferrer">Github</a>
+                    <a 
+                    href="https://github.com/simsimsimo2/" 
+                    target="_blank" rel="noopener noreferrer" 
+                    className={`${styles.a}`}>
+                        Github
+                    </a>
                 </li>
             </ul>
         </nav>
+        <form className={`${styles.form}`}>
+            <div>
+                <input type="text" placeholder="Your name" name="name" className={`${styles.contactInfo} ${styles.feedbackInput}`} required />
+            </div>
+            <div>
+                <input type="email" placeholder="Email" name="email"  className={`${styles.contactInfo} ${styles.feedbackInput}`} required />
+            </div>
+            <div>
+                <textarea placeholder="Your message" name="message" maxLength={2600} className={`${styles.textarea} ${styles.feedbackInput}`} required />
+            </div>
+            <div>
+                <input type="submit" className={`${styles.buttonSend}`} value="SUBMIT"/>
+            </div>
+        </form>
     </section>
-    </>
+    </>)
 }

@@ -88,18 +88,33 @@
     padding: 0;
     margin: 0;
     color: rgb(0, 0, 0);
+    animation-delay: 0s;
+    animation-name: phoneSize1;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    white-space: nowrap;
 }
 .toMy::after{
     content: "to my";
     padding: 0;
     margin: 0;
     color: rgb(0, 0, 0);
+    animation-delay: 0s;
+    animation-name: phoneSize2;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    white-space: nowrap;
 }
 .universe:after{
     content: "universe";
     padding: 0;
     margin: 0;
     color: rgb(0, 0, 0);
+    animation-delay: 0s;
+    animation-name: phoneSize3;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    white-space: nowrap;
 }
 
 /*Reference: https://codepen.io/w3core/pen/ZbJeXm */
@@ -123,19 +138,16 @@
 
 /*Permet de modifier le hover et de montrer les choix de pages sur petite ecran*/
 @keyframes phoneSize1 {
-    0%{ content: "Welcome"; color: rgb(0, 0, 0);}
+    0%{  color: rgb(0, 0, 0);}
     50% { content: "Contact."; color: rgb(192, 5, 5);}
-    100%{ content: "Welcome"; color: rgb(0, 0, 0);}
 }
 @keyframes phoneSize2 {
-    0%{ content: "to my"; color: rgb(0, 0, 0);}
+    0%{  color: rgb(0, 0, 0);}
     50% { content: "Projects."; color: rgb(192, 5, 5);}
-    100%{ content: "to my"; color: rgb(0, 0, 0);}
 }
 @keyframes phoneSize3 {
-    0%{ content: "universe"; color: rgb(0, 0, 0);}
+    0%{  color: rgb(0, 0, 0);}
     50% { content: "About me."; color: rgb(192, 5, 5);}
-    100%{ content: "universe"; color: rgb(0, 0, 0);}
 }
 
 /*Css pour petite ecran*/

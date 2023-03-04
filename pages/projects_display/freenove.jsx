@@ -54,7 +54,7 @@ export default function Freenove4WD(){
                 Web site of the company Freenove
             </a>
             <div className={`${styles.container}`}>
-                <Carousel>
+                <Carousel autoPlay axis="horizontal" interval="5000" infiniteLoop>
                     <Image src={freenove} alt='Picture of the robot from the shop' className={`${styles.img}`}/>
                     <Image src={pic1} alt='Picture of the robot1' className={`${styles.img}`}/>
                     <Image src={pic2} alt='Picture of the robot2' className={`${styles.img}`}/>
