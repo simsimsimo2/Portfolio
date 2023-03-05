@@ -1,9 +1,6 @@
 /*Body de la page*/
 .section{
-    background-color: black;
-    background: -moz-radial-gradient(center, ellipse cover, #e2e51b 0%, #f15431 100%);
-    background: -webkit-radial-gradient(center, ellipse cover, #e2e51b 0%,#f15431 100%);
-    background: radial-gradient(ellipse at center, #e2e51b 0%,#f15431 100%);
+    background-image: url("../public/img/background/grayHexa.jpg");
     min-width: min-content;
     min-height: 100vh;
     margin: 0;

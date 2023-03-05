@@ -1,15 +1,12 @@
 /*Body de la page*/
 .section{
-    background-color: black;
-    background: -moz-radial-gradient(center, ellipse cover, #e937e0 0%, #31c1f1 100%);
-    background: -webkit-radial-gradient(center, ellipse cover, #e937e0 0%,#31c1f1 100%);
-    background: radial-gradient(ellipse at center, #e937e0 0%,#31c1f1 100%);
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-items: space;
+  background-image: url("../public/img/background/grayCircle.jpg");
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-items: space;
 }
 
 /*Titre de la page*/

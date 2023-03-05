@@ -7,7 +7,7 @@ export default function Menu() {
     return <>
         <section className={`${styles.section}`}>
             <nav className={`${styles.nav}`}>
-                <ul>
+                <ul className={`${styles.ul}`}>
                     <li>
                         <Link className={`
                         ${styles.grow} 

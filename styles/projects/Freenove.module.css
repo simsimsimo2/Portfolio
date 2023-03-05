@@ -1,16 +1,17 @@
 /*Body de la page*/
 .section{
-    background-color: black;
-    background: -moz-radial-gradient(center, ellipse cover, #127698 0%, #ecf00b 100%);
-    background: -webkit-radial-gradient(center, ellipse cover, #127698 0%,#ecf00b 100%);
-    background: radial-gradient(ellipse at center, #127698 0%,#ecf00b 100%);
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-items: space;
+  background-image: url("../../public/img/background/forest.jpg");
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: space;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   }
   
   /*Container pour les images*/
@@ -32,6 +33,7 @@
       justify-content: space-around;
       margin: auto;
       width: auto;
+      text-align: center;
   }
   
   /*Description du projet*/

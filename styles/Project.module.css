@@ -15,9 +15,11 @@
     padding: 0;
     width: 100%;
     min-height: 100vh;
-    background-image: url("../public/img/clouds.jpg");
-    background-size: cover;
+    background-image: url("../public/img/background/pinkVertical.jpg");
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 /*Premiere image montrer sur la page*/
