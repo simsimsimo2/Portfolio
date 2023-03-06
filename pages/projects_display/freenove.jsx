@@ -1,12 +1,12 @@
-import styles from '../../styles/projects/Freenove.module.css'
+import styles from '../../styles/projects/ProjectFormat.module.css'
 import Image from 'next/image'
-import freenove from '../../public/img/Freenove/freenove.jpg'
-import pic1 from '../../public/img/Freenove/pic1.jpg'
-import pic2 from '../../public/img/Freenove/pic2.jpg'
-import pic3 from '../../public/img/Freenove/pic3.jpg'
-import pic4 from '../../public/img/Freenove/pic4.jpg'
-import server from '../../public/img/Freenove/server.png'
-import control from '../../public/img/Freenove/image control.png'
+import freenove from '../../public/img/Projects/Freenove/freenove.jpg'
+import pic1 from '../../public/img/Projects/Freenove/pic1.jpg'
+import pic2 from '../../public/img/Projects/Freenove/pic2.jpg'
+import pic3 from '../../public/img/Projects/Freenove/pic3.jpg'
+import pic4 from '../../public/img/Projects/Freenove/pic4.jpg'
+import server from '../../public/img/Projects/Freenove/server.png'
+import control from '../../public/img/Projects/Freenove/image control.png'
 import Link from 'next/link'
 import Head from 'next/head'
 
@@ -54,7 +54,7 @@ export default function Freenove4WD(){
                 Web site of the company Freenove
             </a>
             <div className={`${styles.container}`}>
-                <Carousel autoPlay axis="horizontal" interval="5000" infiniteLoop>
+                <Carousel autoPlay axis="horizontal" interval="5000" infiniteLoop dynamicHeight>
                     <Image src={freenove} alt='Picture of the robot from the shop' className={`${styles.img}`}/>
                     <Image src={pic1} alt='Picture of the robot1' className={`${styles.img}`}/>
                     <Image src={pic2} alt='Picture of the robot2' className={`${styles.img}`}/>

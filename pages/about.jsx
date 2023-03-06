@@ -29,12 +29,13 @@ export default function About() {
             About me
         </p>
         <p className={`${styles.description}`}>
-            A computer programmer who makes sure to 
-            find all the errors in the programs and does it with 
-            pleasure. I have an attraction to everything that comes 
-            down to the entertainment and amusement of the users 
-            of my projects. One of the things I love most is robots 
-            or any project that requires me to build some sort of gadget.
+            A detailed oriented computer programmer who thrives 
+            in quality assurance of code and finds great pride in 
+            finding technical solutions to business problems. 
+            I aspire to specialize in software solutions applied 
+            to entertainment and gaming but am open to all avenues 
+            related to coding. One additional area of interest is 
+            robotics or any solution where I can leverage my mechanical talents.
         </p>
         <p className={`${styles.cv}`}>
             Click on one of the links below to download my resume:

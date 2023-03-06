@@ -1,14 +1,14 @@
-import styles from '../../styles/projects/Gouv-e-courses.module.css'
+import styles from '../../styles/projects/ProjectFormat.module.css'
 import Image from 'next/image'
-import gouv1 from '../../public/img/Gouv-e-courses/Gouv1.png'
-import gouv2 from '../../public/img/Gouv-e-courses/Gouv2.png'
-import gouv3 from '../../public/img/Gouv-e-courses/Gouv3.png'
-import gouv4 from '../../public/img/Gouv-e-courses/Gouv4.png'
-import gouv5 from '../../public/img/Gouv-e-courses/Gouv5.png'
-import gouv6 from '../../public/img/Gouv-e-courses/Gouv6.png'
-import gouv7 from '../../public/img/Gouv-e-courses/Gouv7.png'
-import gouv8 from '../../public/img/Gouv-e-courses/Gouv8.png'
-import gouv9 from '../../public/img/Gouv-e-courses/Gouv9.png'
+import gouv1 from '../../public/img/Projects/Gouv-e-courses/Gouv1.png'
+import gouv2 from '../../public/img/Projects/Gouv-e-courses/Gouv2.png'
+import gouv3 from '../../public/img/Projects/Gouv-e-courses/Gouv3.png'
+import gouv4 from '../../public/img/Projects/Gouv-e-courses/Gouv4.png'
+import gouv5 from '../../public/img/Projects/Gouv-e-courses/Gouv5.png'
+import gouv6 from '../../public/img/Projects/Gouv-e-courses/Gouv6.png'
+import gouv7 from '../../public/img/Projects/Gouv-e-courses/Gouv7.png'
+import gouv8 from '../../public/img/Projects/Gouv-e-courses/Gouv8.png'
+import gouv9 from '../../public/img/Projects/Gouv-e-courses/Gouv9.png'
 import Link from 'next/link'
 import Head from 'next/head'
 
@@ -53,7 +53,7 @@ export default function Gouv(){
                 Web site 
             </a>
             <div className={`${styles.container}`}>
-                <Carousel autoPlay axis="horizontal" interval="5000" infiniteLoop>
+                <Carousel autoPlay axis="horizontal" interval="5000" infiniteLoop dynamicHeight>
                     <Image src={gouv1} alt='Screen shot of the web site' className={`${styles.img}`}/>
                     <Image src={gouv2} alt='Screen shot of the web site' className={`${styles.img}`}/>
                     <Image src={gouv3} alt='Screen shot of the web site' className={`${styles.img}`}/>

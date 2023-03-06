@@ -1,8 +1,9 @@
 import styles from '../styles/Project.module.css'
 import Image from 'next/image'
-import TableOn from '../public/img/Infinity_table/table_on.png'
-import Gouv from '../public/img/Gouv-e-courses/Gouv1.png'
-import Freenove from '../public/img/Freenove/freenove.jpg'
+import TableOn from '../public/img/Projects/Led_table/table_on.png'
+import Gouv from '../public/img/Projects/Gouv-e-courses/Gouv1.png'
+import Freenove from '../public/img/Projects/Freenove/freenove.jpg'
+import VNS from '../public/img/Projects/SeparateurVNS/Slice3D.png'
 import Link from 'next/link'
 import Head from 'next/head'
 
@@ -31,11 +32,11 @@ export default function Projects() {
                     <div>
                         <Image src={TableOn} alt='projet table' className={`${styles.img1}`}/>
                         <div className={`${styles.middle}`}>
-                            <Link className={`${styles.buttonpushable}`} href="/projects_display/infinity_table">
+                            <Link className={`${styles.buttonpushable}`} href="/projects_display/Led_table">
                                 <span className={`${styles.buttonshadow}`}></span>
                                 <span className={`${styles.buttonedge}`}></span>
                                 <span className={`${styles.buttonfront}`}>
-                                    Infinity Table
+                                    LED Table
                                 </span>
                             </Link>
                         </div>
@@ -64,6 +65,20 @@ export default function Projects() {
                                 <span className={`${styles.buttonedge}`}></span>
                                 <span className={`${styles.buttonfront}`}>
                                     Freenove 4WD smart car
+                                </span>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+                <div className={`${styles.container}`}>
+                    <div>
+                        <Image src={VNS} alt='bottle top splitter' className={`${styles.img1}`}/>
+                        <div className={`${styles.middle}`}>
+                            <Link className={`${styles.buttonpushable}`} href="/projects_display/separateurVNS">
+                                <span className={`${styles.buttonshadow}`}></span>
+                                <span className={`${styles.buttonedge}`}></span>
+                                <span className={`${styles.buttonfront}`}>
+                                    VNS splitter
                                 </span>
                             </Link>
                         </div>

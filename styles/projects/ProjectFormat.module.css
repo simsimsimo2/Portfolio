@@ -1,17 +1,17 @@
 /*Body de la page*/
 .section{
-  background-image: url("../../public/img/background/forest.jpg");
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  justify-items: space;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+    background-image: url("../../public/img/background/grayWall.jpg");
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: space;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 /*Container pour les images*/
