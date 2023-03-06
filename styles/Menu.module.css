@@ -171,6 +171,9 @@
     .section{
         flex-direction: column;
         justify-items: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
     }
     .img{
         padding-top: auto;
