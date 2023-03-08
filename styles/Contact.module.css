@@ -16,7 +16,7 @@
   resize:vertical;
   width: 100%;
   min-height: 100px;
-  margin-bottom: .3rem;
+  margin-bottom: 0px;
 }
 .contactInfo{
   margin-bottom: .3rem;
@@ -41,7 +41,6 @@
   padding-top:15px;
   padding-bottom:10px;
   transition: all 0.3s;
-  margin-top:-12px;
   font-weight:700;
 }
 .buttonSend:hover{
@@ -58,7 +57,6 @@
   border:2px solid #CC6666;
   transition: all 0.3s;
   padding: 13px;
-  margin-bottom: 10px;
   width:100%;
   box-sizing: border-box;
   outline:0;
@@ -107,6 +105,12 @@
     list-style: none;
     text-decoration: none;
     text-align: center;
+}
+
+.error{
+  color: red;
+  font-size: large;
+  margin: auto;
 }
 
 /*Bouton de retour vers la page precedente*/

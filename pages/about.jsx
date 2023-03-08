@@ -29,13 +29,14 @@ export default function About() {
             About me
         </p>
         <p className={`${styles.description}`}>
-            A detailed oriented computer programmer who thrives 
-            in quality assurance of code and finds great pride in 
-            finding technical solutions to business problems. 
-            I aspire to specialize in software solutions applied 
-            to entertainment and gaming but am open to all avenues 
-            related to coding. One additional area of interest is 
-            robotics or any solution where I can leverage my mechanical talents.
+        A detailed oriented computer programmer who 
+        thrives in quality assurance of code and finds 
+        great pride in elaborating technical solutions 
+        to business problems. I aspire to specialize 
+        in software solutions applied to entertainment 
+        and gaming but am open to all avenues related to 
+        coding. One additional area of interest is robotics 
+        or any avenue where I can leverage my mechanical talents. 
         </p>
         <p className={`${styles.cv}`}>
             Click on one of the links below to download my resume:
