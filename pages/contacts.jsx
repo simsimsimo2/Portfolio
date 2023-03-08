@@ -76,6 +76,7 @@ export default function Contacts() {
         }
     }
 
+    const [send, setSend] = useState('');
     const handleSubmit = (event) => {
         event.preventDefault();
         
@@ -85,6 +86,10 @@ export default function Contacts() {
 
         if(validEmail && validName && validMessage) {
             sendEmail();
+            setName('');
+            setEmail('');
+            setMessage('');
+            setSend('Thank\'s for your message, Ill be in touch with you shortly! ( •̀ ω •́ )✧');
         }
         
     }
@@ -113,7 +118,7 @@ export default function Contacts() {
             Contacts
         </p>
         <p className={`${styles.description}`}>
-            Here is the information to join me or to know more about me:
+            Here is the information to know more about me or you can send me a message with the form:
         </p>
         <nav className={`${styles.nav}`}>
             <ul className={`${styles.ul}`}>
@@ -136,6 +141,11 @@ export default function Contacts() {
             </ul>
         </nav>
         <form className={`${styles.form}`} ref={form} onSubmit={handleSubmit} noValidate>
+                {send &&
+                    <div className={styles.sent}>
+                        {send}
+                    </div>
+                }
             <div>
                 <input 
                 type="text" 

@@ -112,6 +112,11 @@
   font-size: large;
   margin: auto;
 }
+.sent{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2rem;
+  color: rgb(198, 0, 0);
+}
 
 /*Bouton de retour vers la page precedente*/
 /*Reference: https://getcssscan.com/css-buttons-examples*/
