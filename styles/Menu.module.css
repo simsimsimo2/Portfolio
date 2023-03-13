@@ -51,7 +51,7 @@
 
 /*Image de moi qui saute*/
 .img {
-    width: 250px;
+    width: 350px;
     height: auto;
     padding: 0;
     z-index: 0;
@@ -177,7 +177,7 @@
     }
     .img{
         padding-top: auto;
-        width: 150px;
+        width: 180px;
         margin-left: 30%;
     }
     .div{
