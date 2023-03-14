@@ -33,7 +33,7 @@
     padding: 0;
     width: 100%;
     min-height: 100vh;
-    background-image: url("../public/img/background/rightHexa.jpg");
+    background-image: url("../public/img/background/rightHexa2.webp");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -179,8 +179,6 @@
         padding-top: auto;
         width: 180px;
         margin-left: 30%;
-    }
-    .div{
     }
     .welcome:after{
         animation-delay: 6s;

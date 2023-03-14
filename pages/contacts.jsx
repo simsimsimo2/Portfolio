@@ -86,6 +86,7 @@ export default function Contacts() {
 
         if(validEmail && validName && validMessage) {
             sendEmail();
+            console.log('Email: '+ email,'Name: '+ name, 'Message: ' + message);
             setName('');
             setEmail('');
             setMessage('');

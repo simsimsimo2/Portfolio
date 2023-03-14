@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export default function Menu() {
     return <>
-        <section className={`${styles.section}`}>
+        <section className={`${styles.section}`} priority>
             <nav className={`${styles.nav}`}>
                 <ul className={`${styles.ul}`}>
                     <li>
