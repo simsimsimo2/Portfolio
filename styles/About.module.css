@@ -8,6 +8,14 @@
   flex-direction: column;
   justify-items: space;
 }
+.background{
+    z-index: -1;
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: repeat;
+    object-fit: cover;
+}
 
 /*Titre de la page*/
 .title {

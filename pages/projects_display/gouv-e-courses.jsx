@@ -9,6 +9,7 @@ import gouv6 from '../../public/img/Projects/Gouv-e-courses/Gouv6.png'
 import gouv7 from '../../public/img/Projects/Gouv-e-courses/Gouv7.png'
 import gouv8 from '../../public/img/Projects/Gouv-e-courses/Gouv8.png'
 import gouv9 from '../../public/img/Projects/Gouv-e-courses/Gouv9.png'
+import background from '../../public/img/background/grayWall.jpg'
 import Link from 'next/link'
 import Head from 'next/head'
 
@@ -27,6 +28,12 @@ export default function Gouv(){
         <meta property='og:image' content='http://localhost:3000/img/doge.png'/>
     </Head>
         <section className={`${styles.section}`}>
+            <Image
+            fill
+            className={`${styles.background}`}
+            src={background}
+            alt={"Background"}
+            />
             <div className={`${styles.divButton}`}>
             <Link className={`${styles.buttonpushable}`} aria-label="Projects" href="/projects_display">
                 <span className={`${styles.buttonshadow}`}></span>

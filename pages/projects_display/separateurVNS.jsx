@@ -6,6 +6,7 @@ import pic3 from '../../public/img/Projects/SeparateurVNS/Slice3D.png'
 import pic4 from '../../public/img/Projects/SeparateurVNS/pic3.jpg'
 import pic5 from '../../public/img/Projects/SeparateurVNS/pic4.jpg'
 import pic6 from '../../public/img/Projects/SeparateurVNS/pic5.jpg'
+import background from '../../public/img/background/grayWall.jpg'
 import Link from 'next/link'
 import Head from 'next/head'
 
@@ -24,6 +25,12 @@ export default function SeparateurVNS(){
         <meta property='og:image' content='http://localhost:3000/img/doge.png'/>
     </Head>
         <section className={`${styles.section}`}>
+            <Image
+            fill
+            className={`${styles.background}`}
+            src={background}
+            alt={"Background"}
+            />
             <div className={`${styles.divButton}`}>
             <Link className={`${styles.buttonpushable}`} aria-label="Projects" href="/projects_display">
                 <span className={`${styles.buttonshadow}`}></span>

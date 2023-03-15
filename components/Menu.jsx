@@ -1,11 +1,18 @@
 import styles from '../styles/Menu.module.css'
 import Image from 'next/image'
 import monStyle from '../public/img/monStyle.png'
+import background from '../public/img/background/rightHexa.jpg'
 import Link from 'next/link'
 
 export default function Menu() {
     return <>
-        <section className={`${styles.section}`} priority>
+        <section className={`${styles.section}`}>
+    <Image
+      fill
+      className={`${styles.background}`}
+      src={background}
+      alt={"Background"}
+    />
             <nav className={`${styles.nav}`}>
                 <ul className={`${styles.ul}`}>
                     <li>

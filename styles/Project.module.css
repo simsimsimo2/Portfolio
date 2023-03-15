@@ -8,6 +8,14 @@
   display: flex;
   flex-direction: column;
 }
+.background{
+    z-index: -1;
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: repeat;
+    object-fit: cover;
+}
 .Wrap {
     display: flex;
     flex-direction: column;
@@ -15,7 +23,6 @@
     padding: 0;
     width: 100%;
     min-height: 100vh;
-    background-image: url("../public/img/background/pinkVertical.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

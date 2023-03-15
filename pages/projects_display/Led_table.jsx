@@ -20,6 +20,7 @@ import Head from 'next/head'
 import React from 'react';
 import "../../node_modules/react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
+import background from '../../public/img/background/grayWall.jpg'
 
 export default function Table(){
     return <>
@@ -32,6 +33,12 @@ export default function Table(){
         <meta property='og:image' content='http://localhost:3000/img/doge.png'/>
     </Head>
         <section className={`${styles.section}`}>
+            <Image
+            fill
+            className={`${styles.background}`}
+            src={background}
+            alt={"Background"}
+            />
             <div className={`${styles.divButton}`}>
             <Link className={`${styles.buttonpushable}`} aria-label="Projects" href="/projects_display">
                 <span className={`${styles.buttonshadow}`}></span>

@@ -4,6 +4,7 @@ import TableOn from '../public/img/Projects/Led_table/table_on.png'
 import Gouv from '../public/img/Projects/Gouv-e-courses/Gouv1.png'
 import Freenove from '../public/img/Projects/Freenove/freenove.jpg'
 import VNS from '../public/img/Projects/SeparateurVNS/Slice3D.png'
+import background from '../public/img/background/pinkVertical.jpg'
 import Link from 'next/link'
 import Head from 'next/head'
 
@@ -18,6 +19,12 @@ export default function Projects() {
         <meta property='og:image' content='http://localhost:3000/img/doge.png'/>
     </Head>
         <section className={`${styles.Wrap} ${styles.section}`}>
+            <Image
+            fill
+            className={`${styles.background}`}
+            src={background}
+            alt={"Background"}
+            />
             <div className={`${styles.divButton}`}>
                 <Link className={`${styles.buttonpushable}`} href="/">
                     <span className={`${styles.buttonshadow}`}></span>

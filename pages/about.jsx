@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Moi from '../public/img/Moi.jpeg'
 import Head from 'next/head'
+import background from '../public/img/background/grayCircle.jpg'
 
 export default function About() {
     return <>
@@ -15,6 +16,12 @@ export default function About() {
         <meta property='og:image' content='http://localhost:3000/img/doge.png'/>
     </Head>
     <section className={`${styles.section}`}>
+    <Image
+      fill
+      className={`${styles.background}`}
+      src={background}
+      alt={"Background"}
+    />
         <div className={`${styles.divButton}`}>
         <Link className={`${styles.buttonpushable}`} aria-label="Home" href="/">
             <span className={`${styles.buttonshadow}`}></span>
