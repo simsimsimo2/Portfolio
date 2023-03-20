@@ -7,12 +7,17 @@ import Link from 'next/link'
 export default function Menu() {
     return <>
         <section className={`${styles.section}`}>
+
+    {/*Main pages of the website*/}
+
+    {/*Background*/}
     <Image
       fill
       className={`${styles.background}`}
       src={background}
       alt={"Background"}
     />
+    {/*List of link*/}
             <nav className={`${styles.nav}`}>
                 <ul className={`${styles.ul}`}>
                     <li>
@@ -44,6 +49,7 @@ export default function Menu() {
                     </li>
                 </ul>
             </nav>
+    {/*Image of me*/}
             <div className={`${styles.div}`}>
                 <Link href="/404">
                     <Image src={monStyle} alt="Moi" className={`${styles.img} ${styles.jump}`} priority />

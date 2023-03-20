@@ -43,9 +43,9 @@ export default function Gouv(){
                 </span>
             </Link>
             </div>
-            <p className={`${styles.title}`}>
+            <h1 className={`${styles.title}`}>
                 Gouv-e-courses
-            </p>
+            </h1>
             <p className={`${styles.description}`}>
                 Here is a website made in one of my classes 
                 at La Cite college with one of my classmates. 

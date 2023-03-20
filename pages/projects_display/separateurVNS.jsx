@@ -40,9 +40,9 @@ export default function SeparateurVNS(){
                 </span>
             </Link>
             </div>
-            <p className={`${styles.title}`}>
+            <h1 className={`${styles.title}`}>
                 VNS splitter
-            </p>
+            </h1>
             <p className={`${styles.description}`}>
                 This project started at the pharmacy 
                 where I worked. to close the jars of pills for 

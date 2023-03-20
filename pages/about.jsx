@@ -32,9 +32,9 @@ export default function About() {
         </Link>
         </div>
         <Image src={Moi} alt='Picture of me' className={`${styles.moi}`}/>
-        <p className={`${styles.title}`}>
+        <h1 className={`${styles.title}`}>
             About me
-        </p>
+        </h1>
         <p className={`${styles.description}`}>
         A detailed oriented computer programmer who 
         thrives in quality assurance of code and finds 

@@ -48,9 +48,9 @@ export default function Table(){
                 </span>
             </Link>
             </div>
-            <p className={`${styles.title}`}>
+            <h1 className={`${styles.title}`}>
                 LED table
-            </p>
+            </h1>
             <p className={`${styles.description}`}>
                 Its a table with a mirror at the bottom and a 2
                 sided mirror on top and a framework with LEDS in between. 

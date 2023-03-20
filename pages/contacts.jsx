@@ -123,9 +123,9 @@ export default function Contacts() {
             </span>
         </Link>
         </div>
-        <p className={`${styles.title}`}>
+        <h1 className={`${styles.title}`}>
             Contacts
-        </p>
+        </h1>
         <p className={`${styles.description}`}>
             Here is the information to know more about me or you can send me a message with the form:
         </p>

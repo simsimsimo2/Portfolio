@@ -41,9 +41,9 @@ export default function Freenove4WD(){
                 </span>
             </Link>
             </div>
-            <p className={`${styles.title}`}>
+            <h1 className={`${styles.title}`}>
                 Freenove 4WD smart car
-            </p>
+            </h1>
             <p className={`${styles.description}`}>
             This is a robot that I purchased from Amazon. 
             It was loose and I had to build it by hand. 
