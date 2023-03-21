@@ -7,17 +7,10 @@ import Image from 'next/image';
 import background from '../public/img/background/grayHexa.jpg'
 
 export default function Contacts() {
+    /**
+     * All the variables used in this section
+     */
     const form = useRef();
-    
-    const sendEmail = () => {
-
-    emailjs.sendForm('service_a5z2ecy', 'template_mit8dsc', form.current, 'GUOiLYivT6IcS945v')
-        .then((result) => {
-            console.log(result.text);
-        }, (error) => {
-            console.log(error.text);
-        });
-    }
     const [email, setEmail] = useState('');
     const handleEmailChange = (event) => setEmail(event.target.value);
 
@@ -28,6 +21,26 @@ export default function Contacts() {
     const handleMessageChange = (event) => setMessage(event.target.value);
 
     const [errorEmail, setErrorEmail] = useState('');
+    const [errorName, setErrorName] = useState('');
+    const [errorMessage, setErrorMessage] = useState('');
+    const [send, setSend] = useState('');
+    
+    /**
+     * SendEmail is a fonction from EmailJS that send the form information to my personal email.
+     */
+    const sendEmail = () => {
+    emailjs.sendForm('service_a5z2ecy', 'template_mit8dsc', form.current, 'GUOiLYivT6IcS945v')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+    }
+
+    /**
+     * This fonction is to validate if the email is valid
+     * @returns true or false if the email is valid
+     */
     const validateEmail = () => {
         if(!email){
             setErrorEmail('*The email is required!*');
@@ -43,7 +56,10 @@ export default function Contacts() {
         }
     }
 
-    const [errorName, setErrorName] = useState('');
+    /**
+     * This fonction is to validate if the Name is valid
+     * @returns true or false if the Name is valid
+     */
     const validateName = () => {
         if(!name){
             setErrorName('*The name is required!*');
@@ -58,7 +74,11 @@ export default function Contacts() {
             return true;
         }
     }
-    const [errorMessage, setErrorMessage] = useState('');
+
+    /**
+     * This fonction is to validate if the Message is valid
+     * @returns true or false if the Message is valid
+     */
     const validateMessage = () => {
         if(!message){
             setErrorMessage('*The message is required!*');
@@ -78,7 +98,10 @@ export default function Contacts() {
         }
     }
 
-    const [send, setSend] = useState('');
+    /**
+     * This fonction check if the form is valid and then send the email to my inbox
+     * @param {} event 
+     */
     const handleSubmit = (event) => {
         event.preventDefault();
         
@@ -94,7 +117,6 @@ export default function Contacts() {
             setMessage('');
             setSend('Thank\'s for your message, Ill be in touch with you shortly! ( •̀ ω •́ )✧');
         }
-        
     }
 
     return (
