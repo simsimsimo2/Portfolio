@@ -5,6 +5,7 @@
     flex-direction: column;
     list-style: none;
     margin-top: 7rem;
+    padding-top: 7rem;
 }
 .li {
     display: flex;

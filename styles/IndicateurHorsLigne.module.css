@@ -1,0 +1,33 @@
+.indicateur{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    background-color: #ddd;
+    padding: 1rem;
+    position: fixed;
+    height: 6rem;
+}
+
+.contenu{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.image{
+    min-width: 3rem;
+    width: 3rem;
+    height: auto;
+}
+
+.fermer{
+    border-radius: 1rem;
+    padding: .5rem;
+    width: 3.2rem;
+    height: 3.2rem;
+}
+.fermer:hover{
+    background-color: rgb(176, 179, 182);
+    cursor: pointer;
+}
